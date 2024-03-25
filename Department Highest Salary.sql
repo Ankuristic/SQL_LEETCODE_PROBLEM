@@ -1,0 +1,1 @@
+select  e.name as Employee ,  e.salary, d.name  from Employee  e  left join  department d on Employee.id = department.id
